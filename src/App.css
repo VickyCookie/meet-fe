@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.meet-home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meet-home-create-wrap{
+  margin-top: 5rem !important;
+
+}
+
+button{
+  padding-inline: 2rem !important;
+  padding-block: .5rem !important;
+  border-radius: 1rem !important;
+  border: none !important;
+  background-color: blue;
+  color: #fff;
+  margin-inline: 1rem !important;
+  cursor: pointer;
+}
+
+input{
+  border: 1px solid #c9c9c9;
+  padding: .5rem !important;
+  border-radius: 1rem !important;
+  min-width: 25%;
+}
+
+.meet-room-header div{
+  margin-top: 2rem !important;
+}
+
+.meet-home-peer-id{
+  margin-bottom: 5rem !important;
+}
