@@ -10,7 +10,7 @@ export const useSocket = () => {
 };
 
 export const SocketProvider = ({ children }) => {
-    const socket = io('https://meet-app-be-zmj4.onrender.com/'); // Replace with your server URL
+    const socket = io('https://meet-app-be-f5ud.onrender.com/'); // Replace with your server URL
     const [me, setMe] = useState()
     useEffect(() => {
         // Cleanup the socket connection on component unmount
